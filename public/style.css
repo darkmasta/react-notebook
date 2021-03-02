@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+.notebook-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.notebook-list {
+    border: 2px solid red;
+    margin: 20px;
+    height: 80vh;
+    width: 20%;
+    padding: 20px;
+}
+
+.notebook-text {
+    margin: 20px;
+    border: 2px solid red;
+    height: 80vh + 20px;
+    width: 70%;
+    padding: 20px;
+}
+
+#save-button{
+    position: relative;
+    top: 85%;
+    width: 80%;
+    height: 2.5em;
+    margin-left: 10%;
+}
+
+#save-button:hover{
+    cursor: pointer;
+}
+
+#new-notebook-button {
+    position: relative;
+    top: 95%;
+    width: 80%;
+    height: 2.5em;
+    margin-left: 10%;
+}
+
+#new-notebook-button:hover{
+    cursor: pointer;
+}
+
+.active {
+    background-color: blue;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+    background: black;
+
+}
+
+.slide {
+    position: relative;
+    min-width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.slider-button {
+    position: absolute;
+    color: white;
+    top: 0;
+    width: 10%;
+    height:  100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: 0.7s ease;
+}
+
+.slider-button:hover {
+    background: rgba(177, 69, 50, 0.774)  !important; 
+    cursor: pointer;
+}
+
+.slider-button:active {
+    border: none;
+}
+
+.slider-button:focus {
+    border: none;
+}
+
+#left-button {
+    left: 0;
+}
+
+#right-button {
+    right: 0;
+}
+
+.arrow {
+  border: solid rgba(136, 123, 123, 0.658);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 13px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+.image-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-nav {
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(161, 149, 149, 0.658);
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0;
+}
+
+.slider-indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.358);
+    margin: 0 12px;
+}
+
+.current-indicator {
+    background: rgba(0, 0, 0, 0.758);
+}

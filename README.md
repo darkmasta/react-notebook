@@ -1,9 +1,18 @@
 # react-notebook
-Ana klasorde
+### Ana klasorde
+```
 npm install 
-server klasorunun icinde 
+```
+### server klasorunun icinde 
+```
 npm install
-ana klasorde 
+```
+### ana klasorde 
+```
 npm run start
-server icinde
+```
+
+### server icinde
+```
 sudo node app.js
+```

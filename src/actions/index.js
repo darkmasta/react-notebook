@@ -1,6 +1,6 @@
-export const saveText = (text) => {
+export const saveDocList = (doc) => {
   return {
-    type: "SAVE_TEXT",
-    payload: text,
+    type: "SAVE_DOC_LIST",
+    payload: doc,
   };
 };

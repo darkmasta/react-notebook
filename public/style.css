@@ -27,7 +27,7 @@ body {
 
 #save-button{
     position: relative;
-    top: 85%;
+    top: 55%;
     width: 80%;
     height: 2.5em;
     margin-left: 10%;
@@ -39,7 +39,7 @@ body {
 
 #new-notebook-button {
     position: relative;
-    top: 95%;
+    top: 65%;
     width: 80%;
     height: 2.5em;
     margin-left: 10%;
